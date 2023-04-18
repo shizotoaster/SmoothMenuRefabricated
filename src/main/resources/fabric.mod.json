@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "smoothmenu",
+  "version": "${version}",
+
+  "name": "Smooth Menu",
+  "description": "Uncaps the main menu's framerate limit.",
+  "authors": [
+    "BookerCatch",
+    "shizotoaster"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/smoothmenu/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.shizotoaster.smoothmenu.SmoothMenuMod"
+    ]
+  },
+  "mixins": [
+    "smoothmenu.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "minecraft": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

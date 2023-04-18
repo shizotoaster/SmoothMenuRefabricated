@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shizotoaster.smoothmenu.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "SmoothMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
