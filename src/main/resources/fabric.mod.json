@@ -10,29 +10,18 @@
     "shizotoaster"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/smoothmenu-refabricated",
+    "sources": "https://github.com/shizotoaster/SmoothMenuRefabricated"
   },
 
   "license": "MIT",
   "icon": "assets/smoothmenu/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "net.shizotoaster.smoothmenu.SmoothMenuMod"
-    ]
-  },
   "mixins": [
     "smoothmenu.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.17",
-    "minecraft": "*",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "minecraft": ">=1.16"
   }
 }
